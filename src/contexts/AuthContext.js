@@ -11,7 +11,7 @@ export const AuthProvider = ({ children}) => {
 
     const [loading, setLoading] = useState(true);
 
-    const [user, setUser] = useState({});
+    const [user, setUser] = useState(null);
 
     const history = useHistory();
 
@@ -20,7 +20,7 @@ export const AuthProvider = ({ children}) => {
         auth.onAuthStateChanged((user) => {
             setUser(user);
             setLoading(false);
-            history.push('/chats');
+            if (user) history.push('/chats');
 
 
         })
