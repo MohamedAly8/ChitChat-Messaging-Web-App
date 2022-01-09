@@ -30,7 +30,7 @@
   /* position: absolute;
   left: 22px;
   top: 12px; */
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 700;
   color: white;
   margin-left: 30px;
@@ -49,7 +49,7 @@
 
 .creds {
   color: white;
-  font-size: 20px;
+  font-size: 10px;
   font-weight: 500;
   margin-right: 50px;
 }

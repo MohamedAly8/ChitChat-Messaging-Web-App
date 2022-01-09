@@ -76,11 +76,11 @@ const Chats = () => {
                     <div className='logo-tab'>
                         ChitChat
                     </div>
-                    <div className='welcome'>
+                    {/* <div className='welcome'>
                         Welcome {user.email}!
-                    </div>
+                    </div> */}
                     <div className='creds'>
-                        by Mohamed Aly
+                        by Mohamed
                     </div>
                     <div onClick={handleLogout} className='logout-tab'>
                         Logout
